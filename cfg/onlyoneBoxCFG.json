@@ -1,0 +1,91 @@
+{
+    "items": [
+        {
+            "name": "Estaca",
+            "image": "iconEstaca.png",
+            "category": "Terra"
+        },
+        {
+            "name": "Escritura",
+            "image": "iconEscritura.png",
+            "category": "Terra"
+        },
+        {
+            "name": "Marreta",
+            "image": "iconMarreta.png",
+            "category": "Terra"
+        },
+        {
+            "name": "Serra",
+            "image": "iconSerra.png",
+            "category": "Ferramentas"
+        },
+        {
+            "name": "Machado",
+            "image": "iconMachado.png",
+            "category": "Ferramentas"
+        },
+        {
+            "name": "Pá",
+            "image": "iconPa.png",
+            "category": "Ferramentas"
+        },
+        {
+            "name": "Prego",
+            "image": "iconPrego.png",
+            "category": "Silo"
+        },
+        {
+            "name": "Parafuso",
+            "image": "iconParafuso.png",
+            "category": "Silo"
+        },
+        {
+            "name": "Painel",
+            "image": "iconPainel.png",
+            "category": "Silo"
+        },
+        {
+            "name": "Rebite",
+            "image": "iconRebite.png",
+            "category": "Celeiro"
+        },
+        {
+            "name": "Tábua",
+            "image": "iconTabua.png",
+            "category": "Celeiro"
+        },
+        {
+            "name": "Fita",
+            "image": "iconFita.png",
+            "category": "Celeiro"
+        },
+        {
+            "name": "Bacon e Ovos",
+            "image": "iconBaconeOvos.png",
+            "category": "Moedas"
+        },
+        {
+            "name": "Pernas",
+            "image": "iconPernas.png",
+            "category": "Moedas"
+        },
+        {
+            "name": "Anel",
+            "image": "iconAnel.png",
+            "category": "Moedas"
+        }
+    ],
+    "categories": ["Terra", "Celeiro", "Silo", "Ferramentas", "Moedas"],
+    "window": {
+        "title": "Configurar Box",
+        "width": 350,
+        "height": 600
+    },
+    "item_frame": {
+        "width": 64,
+        "height": 64,
+        "columns": 4,
+        "padding": 3
+    }
+}

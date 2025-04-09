@@ -1,0 +1,60 @@
+{
+    "window": {
+        "name": "FARMs",
+        "width": 640,
+        "height": 480,
+        "window_height": 514
+    },
+    "delays": {
+        "after_friend_button": 0.3,
+        "after_book_button": 0.5,
+        "after_tag_field": 1.0,
+        "after_typing": 0.2,
+        "after_search": 0.5,
+        "after_add_client": 0.2,
+        "after_exit": 0.3,
+        "after_close_shop": 0.3
+    },
+    "templates": {
+        "friend_button": {
+            "filename": "friendButton.png",
+            "region": [567, 397, 73, 83]
+        },
+        "friend_button_return": {
+            "filename": "friendButton.png",
+            "region": [583, 340, 57, 85]
+        },
+        "book_button": {
+            "filename": "book.png",
+            "region": [198, 397, 96, 83]
+        },
+        "digitar_tag": {
+            "filename": "digitarTag.png",
+            "region": [147, 140, 95, 65]
+        },
+        "procurar_pt": {
+            "filename": "procurarPT.png",
+            "region": [382, 141, 128, 63]
+        },
+        "procurar_en": {
+            "filename": "procurarEN.png",
+            "region": [382, 141, 128, 63]
+        },
+        "adicionar_cliente_pt": {
+            "filename": "adicionarClientePT.png",
+            "region": [325, 216, 120, 54]
+        },
+        "adicionar_cliente_en": {
+            "filename": "adicionarClienteEN.png",
+            "region": [325, 216, 120, 54]
+        },
+        "exit_cliente": {
+            "filename": "exitCliente.png",
+            "region": [483, 50, 70, 67]
+        },
+        "close_shop": {
+            "filename": "closeShop.png",
+            "region": [452, 105, 57, 62]
+        }
+    }
+}

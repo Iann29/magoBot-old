@@ -1,0 +1,65 @@
+# Arquivos de configuração com tokens ou senhas
+*.env
+*config.json
+*secrets.json
+*credentials.json
+
+# Proteção completa da pasta API com credenciais
+API/
+
+# Específicos para proteger tokens da API
+api_tokens.py
+api_keys.py
+cfg/api_config.json
+cfg/*_key.json
+cfg/*_secret.json
+cfg/*_token.json
+
+# Arquivos de log
+*.log
+log/
+logs/
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Imagens e capturas de tela
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Arquivos de backup
+*.bak
+*~
+*.swp

@@ -1,0 +1,37 @@
+{
+    "window": {
+        "name": "FARMs",
+        "width": 640,
+        "height": 480,
+        "window_height": 514
+    },
+    "delays": {
+        "after_click": 0.05,
+        "after_esc": 0.05,
+        "between_boxes": 0.05
+    },
+    "templates": {
+        "escolhendo_item": {
+            "filename": "escolhendo_item.png",
+            "region": [117, 207, 45, 51],
+            "directory": "states"
+        },
+        "lixo": {
+            "filename": "lixo.png",
+            "region": [283, 304, 39, 46],
+            "directory": "buttons"
+        }
+    },
+    "click_positions": {
+        "box1": [184, 208],
+        "box2": [184, 281],
+        "box3": [251, 208],
+        "box4": [255, 284],
+        "box5": [321, 209],
+        "box6": [322, 281],
+        "box7": [392, 207],
+        "box8": [388, 281],
+        "box9": [459, 204],
+        "box10": [460, 276]
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "window": {
+        "name": "FARMs",
+        "width": 640,
+        "height": 480,
+        "window_height": 514
+    },
+    "delays": {
+        "after_click_box": 0.1,
+        "after_click_slot": 0.1,
+        "after_click_item": 0.1,
+        "after_click_quantidade": 0.1,
+        "after_collect": 1.0,
+        "between_boxes": 0.5
+    },
+    "boxes": {
+        "box1": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [151, 177, 53, 63]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [191, 210, 25, 31]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [149, 167, 58, 78]
+            }
+        },
+        "box2": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [150, 252, 56, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [192, 287, 25, 22]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [150, 251, 57, 67]
+            }
+        },
+        "box3": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [219, 178, 55, 68]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [262, 214, 23, 23]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [220, 177, 53, 43]
+            }
+        },
+        "box4": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [219, 253, 57, 66]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [258, 285, 27, 26]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [221, 252, 51, 42]
+            }
+        },
+        "box5": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [288, 179, 57, 65]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [331, 213, 24, 26]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [289, 177, 52, 42]
+            }
+        },
+        "box6": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [287, 254, 55, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [330, 287, 22, 23]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [288, 250, 54, 44]
+            }
+        },
+        "box7": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [355, 178, 59, 66]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [400, 214, 21, 20]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [356, 176, 55, 45]
+            }
+        },
+        "box8": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [358, 254, 53, 61]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [400, 288, 20, 21]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [358, 252, 52, 42]
+            }
+        },
+        "box9": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [426, 180, 54, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [467, 211, 23, 25]
+            },
+            "sold": {
+                "filename": "caixaVendida.png",
+                "region": [426, 176, 53, 43]
+            }
+        }
+    },
+    "templates": {
+        "prego": {
+            "filename": "prego.png",
+            "region": [177, 152, 163, 204],
+            "directory": "itens"
+        },
+        "painel": {
+            "filename": "painel.png",
+            "region": [177, 152, 163, 204],
+            "directory": "itens"
+        },
+        "parafuso": {
+            "filename": "parafuso.png",
+            "region": [177, 152, 163, 204],
+            "directory": "itens"
+        },
+        "quantidade_menos": {
+            "filename": "quantiaMenos.png",
+            "region": [358, 155, 42, 44],
+            "directory": "buttons"
+        },
+        "quantidade_super_menos": {
+            "filename": "quantiaSuperMenos.png",
+            "region": [386, 226, 29, 35],
+            "directory": "buttons"
+        },
+        "vender_pt": {
+            "filename": "sellPT.png",
+            "region": [349, 336, 146, 37],
+            "directory": "buttons"
+        },
+        "vender_en": {
+            "filename": "sellEN.png",
+            "region": [349, 336, 146, 37],
+            "directory": "buttons"
+        }
+    },
+    "click_positions": {
+        "slot_click": [141, 231]
+    },
+    "state_messages": {
+        "Fora da Loja": "Entre na loja primeiro",
+        "Carregando Loja": "Aguarde a loja carregar",
+        "Loja Carregando": "Aguarde a loja carregar",
+        "Erro": "Erro ao processar a venda"
+    }
+}

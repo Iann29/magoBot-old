@@ -1,0 +1,153 @@
+{
+    "window": {
+        "name": "FARMs",
+        "width": 640,
+        "height": 480,
+        "window_height": 514
+    },
+    "delays": {
+        "between_verifications": 0.1
+    },
+    "verify_region": [128, 160, 380, 161],
+    "kits": {
+        "silo": {
+            "box1": {
+                "item": "prego",
+                "quantity": 9,
+                "template": "verificar9prego.png"
+            },
+            "box2": {
+                "item": "prego",
+                "quantity": 10,
+                "template": "verificar10prego2.png"
+            },
+            "box3": {
+                "item": "prego",
+                "quantity": 10,
+                "template": "verificar10prego3.png"
+            },
+            "box4": {
+                "item": "parafuso",
+                "quantity": 10,
+                "template": "verificar10parafuso4.png"
+            },
+            "box5": {
+                "item": "parafuso",
+                "quantity": 10,
+                "template": "verificar10parafuso5.png"
+            },
+            "box6": {
+                "item": "parafuso",
+                "quantity": 10,
+                "template": "verificar10parafuso6.png"
+            },
+            "box7": {
+                "item": "painel",
+                "quantity": 10,
+                "template": "verificar10painel7.png"
+            },
+            "box8": {
+                "item": "painel",
+                "quantity": 10,
+                "template": "verificar10painel8.png"
+            },
+            "box9": {
+                "item": "painel",
+                "quantity": 10,
+                "template": "verificar10painel9.png"
+            }
+        }
+    },
+    "boxes": {
+        "box1": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [151, 177, 53, 63]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [191, 210, 25, 31]
+            }
+        },
+        "box2": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [150, 252, 56, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [192, 287, 25, 22]
+            }
+        },
+        "box3": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [219, 178, 55, 68]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [262, 214, 23, 23]
+            }
+        },
+        "box4": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [219, 253, 57, 66]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [258, 285, 27, 26]
+            }
+        },
+        "box5": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [288, 179, 57, 65]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [331, 213, 24, 26]
+            }
+        },
+        "box6": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [287, 254, 55, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa2.png",
+                "region": [330, 285, 25, 29]
+            }
+        },
+        "box7": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [355, 178, 59, 66]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [400, 214, 21, 20]
+            }
+        },
+        "box8": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [358, 254, 53, 61]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [400, 288, 20, 21]
+            }
+        },
+        "box9": {
+            "empty": {
+                "filename": "caixa.png",
+                "region": [426, 180, 54, 62]
+            },
+            "with_item": {
+                "filename": "itemNaCaixa.png",
+                "region": [467, 211, 23, 25]
+            }
+        }
+    }
+}
